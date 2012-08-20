@@ -1,0 +1,92 @@
+﻿* 
+{
+    font-family: Helvetica, Arial, Sans-Serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body 
+{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body 
+{
+    background-image: url("/img/wood.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+::selection 
+{
+    background: #555;
+    color: #fff;
+}
+
+h1, h2 
+{
+    color: White;
+    margin: 20px 0 20px 0;
+    font-size: 40px;
+}
+
+#container
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.main
+{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.main input
+{
+    height: 40px;
+    width: 20%;
+}
+
+#game 
+{
+    height: 100%;
+    width: 600px;
+    margin: 0 auto 0 auto;
+}
+
+#board {
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+
+#panel {
+	float: left;
+	background-color: #ddd;
+	width: 200px;
+}
+
+#turn 
+{
+    margin: 10px;
+    font-size: 20px;
+    color: #555;
+}
+
+.space {
+	background-color: #fff;
+	width: 100px;
+	height: 100px;
+	float: left;
+	border: 1px solid #222;
+	font-size: 90px;
+	text-align: center;
+}
